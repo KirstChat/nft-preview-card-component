@@ -38,7 +38,7 @@ body {
   padding: 1.4rem;
   position: relative;
   margin-bottom: 1rem;
-  width: 330px;
+  width: 335px;
 }
 
 .card__imgs {
@@ -72,8 +72,7 @@ body {
 
 .card__heading {
   color: var(--white);
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.4rem;
   margin: var(--margin-default);
 }
 
@@ -122,7 +121,7 @@ body {
 
 .footer__text {
   color: var(--blue);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
