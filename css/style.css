@@ -37,8 +37,9 @@ body {
   border-radius: var(--border-radius-default);
   padding: 1.4rem;
   position: relative;
-  margin-bottom: 1rem;
-  width: 335px;
+  margin: 0 auto 1rem;
+  width: 90%;
+  max-width: 375px;
 }
 
 .card__imgs {
