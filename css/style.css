@@ -1,0 +1,166 @@
+:root {
+  --blue: #8bacda;
+  --cyan: #00fff7;
+  --cyan-fade: rgba(0, 255, 247, 0.5);
+  --white: #fff;
+
+  --bg-main: #0d192b;
+  --bg-card: #14253d;
+  --line: #2f415b;
+  --attribution: #3e52a3;
+
+  --border-radius-default: 0.5rem;
+  --margin-default: 1.4rem 0;
+  --transition-default: all 0.2s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main);
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ---------- Card ---------- */
+.card {
+  background-color: var(--bg-card);
+  border-radius: var(--border-radius-default);
+  padding: 1.4rem;
+  position: relative;
+  margin-bottom: 1rem;
+  width: 330px;
+}
+
+.card__imgs {
+  position: relative;
+}
+
+.card__img {
+  border-radius: var(--border-radius-default);
+  display: block;
+  width: 100%;
+}
+
+.card__img-overlay {
+  background-color: var(--cyan-fade);
+  border-radius: var(--border-radius-default);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: var(--transition-default);
+}
+
+.overlay__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__heading {
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: var(--margin-default);
+}
+
+.card__description {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.card__stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: var(--margin-default);
+}
+
+.card__stats img {
+  margin-right: 0.4rem;
+}
+
+.stats__ethereum,
+.stats__clock {
+  display: flex;
+  align-items: center;
+}
+
+.stats__ethereum {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.stats__clock {
+  color: var(--blue);
+  font-weight: 300;
+}
+
+.card__line {
+  border: 1px solid var(--line);
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.footer__text {
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.footer__text span {
+  color: var(--white);
+}
+
+.footer__img {
+  border: 1px solid vaR(--white);
+  border-radius: 50%;
+  height: 35px;
+  margin-right: 1rem;
+}
+
+/* ---------- Active States ---------- */
+.card__img-overlay:hover,
+.card__heading:hover,
+.footer__text span:hover {
+  cursor: pointer;
+}
+
+.card__heading:hover,
+.footer__text span:hover {
+  color: var(--cyan);
+}
+
+.card__img-overlay:hover {
+  opacity: 1;
+}
+
+/* ---------- Footer ---------- */
+.attribution {
+  color: var(--white);
+  font-size: 0.8rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+}
+.attribution a {
+  color: var(--attribution);
+}
