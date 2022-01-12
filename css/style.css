@@ -95,17 +95,16 @@ body {
 .stats__clock {
   display: flex;
   align-items: center;
+  font-size: 0.9rem;
 }
 
 .stats__ethereum {
   color: var(--cyan);
-  font-size: 0.9rem;
   font-weight: 600;
 }
 
 .stats__clock {
   color: var(--blue);
-  font-size: 0.9rem;
   font-weight: 400;
 }
 
@@ -179,6 +178,11 @@ body {
 
   .card__stats {
     margin: 1.5rem 0;
+  }
+
+  .stats__ethereum,
+  .stats__clock {
+    font-size: 1rem;
   }
 
   .card-footer {
