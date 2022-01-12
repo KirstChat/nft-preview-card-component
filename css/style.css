@@ -9,7 +9,6 @@
   --line: #2f415b;
 
   --border-radius-default: 0.8rem;
-  --margin-default: 1.4rem 0;
   --transition-default: all 0.2s ease;
 }
 
@@ -22,7 +21,6 @@
 body {
   background-color: var(--bg-main);
   font-family: 'Outfit', sans-serif;
-  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,11 +32,11 @@ body {
 .card {
   background-color: var(--bg-card);
   border-radius: var(--border-radius-default);
-  padding: 1.4rem;
+  padding: 1.5rem;
   position: relative;
-  margin: 0 auto 2rem;
-  width: 90%;
-  max-width: 375px;
+  margin: 3.8rem 1.5rem;
+  height: 543px;
+  width: 327px;
 }
 
 .card__imgs {
@@ -72,8 +70,8 @@ body {
 
 .card__heading {
   color: var(--white);
-  font-size: 1.4rem;
-  margin: var(--margin-default);
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.75rem;
 }
 
 .card__description {
@@ -86,11 +84,11 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  margin: var(--margin-default);
+  margin: 1rem 0;
 }
 
 .card__stats img {
-  margin-right: 0.4rem;
+  margin-right: 7px;
 }
 
 .stats__ethereum,
@@ -101,12 +99,14 @@ body {
 
 .stats__ethereum {
   color: var(--cyan);
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
 .stats__clock {
   color: var(--blue);
-  font-weight: 300;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .card__line {
@@ -116,23 +116,24 @@ body {
 .card__footer {
   display: flex;
   align-items: center;
-  margin: 1rem 0 0.5rem;
+  margin-top: 1rem;
 }
 
 .footer__text {
   color: var(--blue);
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .footer__text span {
   color: var(--white);
+  margin-left: 5px;
 }
 
 .footer__img {
-  border: 1px solid vaR(--white);
+  border: 1px solid var(--white);
   border-radius: 50%;
-  height: 35px;
+  height: 33px;
   margin-right: 1rem;
 }
 
@@ -156,8 +157,39 @@ body {
 .attribution {
   color: var(--white);
   font-size: 0.8rem;
+  position: absolute;
+  bottom: 0.5rem;
+  text-align: center;
 }
 
 .attribution a {
   color: var(--cyan);
+}
+
+@media screen and (min-width: 1023px) {
+  .card {
+    height: 596px;
+    margin: 0;
+    width: 350px;
+  }
+
+  .card__heading {
+    margin: 1.5rem 0 1rem;
+  }
+
+  .card__stats {
+    margin: 1.5rem 0;
+  }
+
+  .card-footer {
+    margin: 1rem 0 2rem;
+  }
+
+  .footer__text {
+    font-size: 1rem;
+  }
+
+  .attribution {
+    bottom: 1rem;
+  }
 }
