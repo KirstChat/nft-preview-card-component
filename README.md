@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Github URL: [https://github.com/KirstChat/nft-preview-card-component-main](https://github.com/KirstChat/nft-preview-card-component-main)
-- Live Site URL: [https://kirstchat.github.io/nft-preview-card-component-main/](https://kirstchat.github.io/nft-preview-card-component-main/)
+- Solution URL: [https://www.frontendmentor.io/solutions/solution-for-nft-preview-card-d1DiTrfXc](https://www.frontendmentor.io/solutions/solution-for-nft-preview-card-d1DiTrfXc)
+- Live Site URL: [https://kirstchat.github.io/nft-preview-card-component/](https://kirstchat.github.io/nft-preview-card-component/)
 
 ### Built with
 
