@@ -4,18 +4,13 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Built with](#built-with)
+- [Author](#author)
 
-## Overview
-
-I completed this challenge in under an hour to test my basic HTML, CSS and Flexbox skills.
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
@@ -31,15 +26,14 @@ Users should be able to:
 - Solution URL: [https://www.frontendmentor.io/solutions/solution-for-nft-preview-card-d1DiTrfXc](https://www.frontendmentor.io/solutions/solution-for-nft-preview-card-d1DiTrfXc)
 - Live Site URL: [https://kirstchat.github.io/nft-preview-card-component/](https://kirstchat.github.io/nft-preview-card-component/)
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first design
 
-### Author
+## Author
 
-- LinkedIn - [Kirsty Chatterton](https://www.linkedin.com/in/kirsty-c-154781a4/)
-- Github - [KirstChat](https://github.com/KirstChat)
 - Frontend Mentor - [@KirstChat](https://www.frontendmentor.io/profile/KirstChat)
+- LinkedIn - [Kirsty Chatterton](https://www.linkedin.com/in/kirsty-c-154781a4/)
